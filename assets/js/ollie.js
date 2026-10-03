@@ -12,26 +12,6 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// smooth scroll
-// smooth scroll
-$(document).ready(function(){
-    $(".navbar .nav-link").on('click', function(event) {
-
-        if (this.hash !== "") {
-
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 700, function(){
-                window.location.hash = hash;
-            });
-        } 
-    });
-});
-
 // portfolio carousel
 $('#owl-portfolio').owlCarousel({
     margin:30,
@@ -88,13 +68,38 @@ function showTab(event, tabElement, tabId) {
     // Remove the 'active' class from all tab links and hide all tab content
     for (var i = 0; i < tabs.length; i++) {
         tabs[i].classList.remove('active');
+        tabs[i].setAttribute('aria-selected', 'false');
+        tabs[i].tabIndex = -1;
         contents[i].style.display = 'none';
     }
 
     // Add 'active' class to the clicked tab and show the corresponding content
     tabElement.classList.add('active');
+    tabElement.setAttribute('aria-selected', 'true');
+    tabElement.tabIndex = 0;
     const targetContent = cardContent.querySelector(`#${tabId}`);
     if (targetContent) {
         targetContent.style.display = 'block';
     }
 }
+
+document.querySelectorAll('[role="tablist"]').forEach(function(tabList) {
+    tabList.addEventListener('keydown', function(event) {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
+            return;
+        }
+
+        var tabs = Array.from(tabList.querySelectorAll('[role="tab"]'));
+        var currentIndex = tabs.indexOf(document.activeElement);
+        if (currentIndex < 0) {
+            return;
+        }
+
+        event.preventDefault();
+        var nextIndex = event.key === 'Home' ? 0 :
+            event.key === 'End' ? tabs.length - 1 :
+            (currentIndex + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+        tabs[nextIndex].focus();
+        tabs[nextIndex].click();
+    });
+});

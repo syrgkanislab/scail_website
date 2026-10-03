@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Stanford Causal AI Lab.">
+    <meta name="description" content="Stanford Causal AI Lab develops machine learning and AI methods for causal inference, experimentation, and data-driven decisions.">
     <meta name="author" content="Vasilis Syrgkanis">
+    <meta name="theme-color" content="#ffffff">
     <title>Stanford Causal AI Lab</title>
 
     <!-- font icons -->
@@ -17,14 +18,15 @@
 
     <!-- Bootstrap + Ollie main styles -->
 	<link rel="stylesheet" href="assets/css/ollie.css">
+    <link rel="stylesheet" href="assets/css/site.css">
 
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="#home" class="skip-to-main-content-link" tabindex="0">Skip to main content</a>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <a href="#main-content" class="skip-to-main-content-link">Skip to main content</a>
     <nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-offset-top="20">
         <div class="container">
-            <a class="navbar-brand" href="#" role="button"><img src="assets/imgs/cai_logo.png" alt="SCAIL logo" class="brand-img"></a>
+            <a class="navbar-brand" href="#home" aria-label="Stanford Causal AI Lab home"><img src="assets/imgs/cai_logo.png" alt="Stanford Causal AI Lab" class="brand-img"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,6 +38,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#applications">Applications</a>
@@ -63,13 +68,21 @@
         </div>
     </nav>
 
-
-    <header id="home" class="header" role="banner" aria-label="Header">
+    <main id="main-content">
+    <header id="home" class="header" role="banner" aria-label="Stanford Causal AI Lab">
         <div class="overlay"></div>
 
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">  
-            <div class="container">
-            </div>        
+            <div class="container hero-content">
+                <p class="hero-eyebrow">Stanford University · SCAIL Lab</p>
+                <h1>Causal AI for better decisions</h1>
+                <p class="hero-summary">We build machine learning and AI methods that help people learn what works, for whom, and why—from complex observational data and real-world experiments.</p>
+                <div class="hero-actions">
+                    <a class="btn hero-button" href="#foundations">Explore our research</a>
+                    <a class="hero-text-link" href="#people">Meet the team <span aria-hidden="true">→</span></a>
+                </div>
+                <p class="hero-topics">Causal Inference <span>·</span> Machine Learning <span>·</span> Econometrics <span>·</span> Experimentation <span>·</span> Artificial Intelligence</p>
+            </div>
         </div>
     </header>
 
@@ -154,7 +167,7 @@
             <div class="row align-items-center mr-auto">
                 <div class="col-md-12">
                     <h2 class="section-title">News</h2>
-                    <p>
+                    <p class="section-intro">Recent research, releases, and milestones from the lab.</p>
                     <ul>
                         <li>
                             The <a href="https://causalsmith.org/">CausalSmith auto-researcher</a> has been released! CausalSmith is a Lean-based framework that automates theoretical research in causal inference, generating and formally verifying candidate results.
@@ -263,7 +276,6 @@
                             </a> with Victor Chernozhukov, Christian Hansen, Nathan Kallus and Martin Spindler, has been released online.
                         </li>
                     </ul>
-                    </p>
                 </div>
              </div>
         </div>
@@ -272,6 +284,7 @@
     <section class="section" id="applications">
         <div class="container">
             <h2 class="section-title mb-4">Applications</h2>
+            <p class="section-intro">We partner across domains where careful evidence can improve consequential decisions.</p>
 
             <div class="row text-center">
                 <div class="col-lg-3">
@@ -342,6 +355,7 @@
     <section class="section" id="foundations">
         <div class="container">
             <h2 class="section-title mb-4">Foundations</h2>
+            <p class="section-intro">We develop foundational methods and theory for learning about cause and effect and using that knowledge to make better decisions across diverse settings.</p>
             
             <div class="row text-center">
                 <div class="col-lg-3">
@@ -825,7 +839,7 @@
                             <div class="des">
                                 <div class="line"></div>
                                 <b class="name">Justin Whitehouse</b><br/>
-                                <b class="xs-font">Postdoctoral Researcher (SAIL Fellow)</b>
+                                <b class="xs-font">Postdoctoral Researcher<br/><i>SAIL Fellow</i></b>
                             </div>
                         </div>
                     </div>
@@ -837,12 +851,11 @@
                             <div class="des">
                                 <div class="line"></div>
                                 <b class="name">Lars van der Laan</b><br/>
-                                <b class="xs-font">Postdoctoral Researcher (Causal Science Center Fellow)</b>
+                                <b class="xs-font">Postdoctoral Researcher<br/><i>Causal Science Center Fellow</i></b>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="row text-left">
                     <div class="col-lg-4">
                         <div class="textmonial-item">
@@ -868,10 +881,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="row text-left">
-		    			<div class="col-lg-4">
+                    <div class="col-lg-4">
                         <div class="textmonial-item">
                             <a href="https://jkjin.com/">
                                 <img src="assets/imgs/jikaijin.jpg" class="avatar" alt="Jin">
@@ -883,6 +893,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="row text-left">
                     <div class="col-lg-4">
                         <div class="textmonial-item">
                             <img src="assets/imgs/shiangyi.jpg" class="avatar" alt="Lin">
@@ -986,13 +999,19 @@
     <section class="section" id="publications">
         <div class="container">
             <h2 class="section-title">Publications</h2>
+            <p class="section-intro">Browse the lab’s research by year or topic. Search titles, authors, or venues.</p>
+            <div class="publication-search">
+                <label for="publication-search-input">Search publications</label>
+                <input id="publication-search-input" type="search" class="form-control" placeholder="e.g. causal inference, Syrgkanis, NeurIPS" autocomplete="off">
+                <p id="publication-search-status" class="search-status" aria-live="polite"></p>
+            </div>
             <div class="row text-left">
                 <div class="card-content" style="display: block">
-                <div class="col-lg-12 tabs">
-                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="56">By Year</button>
-                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="57">By Theme</button>
+                <div class="col-lg-12 tabs" role="tablist" aria-label="Publication views">
+                    <button class="xs-font tab-link active" id="publications-by-year" role="tab" aria-controls="tab1" aria-selected="true" onclick="showTab(event, this, 'tab1')" tabindex="0">By Year</button>
+                    <button class="xs-font tab-link" id="publications-by-theme" role="tab" aria-controls="tab2" aria-selected="false" onclick="showTab(event, this, 'tab2')" tabindex="-1">By Theme</button>
                 </div>
-                <div class="col-lg-12 tab-content active" id="tab1">
+                <div class="col-lg-12 tab-content active" id="tab1" role="tabpanel" aria-labelledby="publications-by-year">
                     <dl class="row mt-3">
 			<dt class="col-sm-1">
                             <h3 class="title mt-2">2026</h3>
@@ -1370,7 +1389,7 @@
                     </dl>
                 </div>
 
-                <div class="col-lg-12 tab-content" id="tab2">
+                <div class="col-lg-12 tab-content" id="tab2" role="tabpanel" aria-labelledby="publications-by-theme">
                     <dl class="row mt-3">
                         <dt class="col-sm-1">
                             <img class="card-img-top mt-2" src="assets/imgs/cate.webp" alt="Heterogeneous Effects"
@@ -1852,7 +1871,7 @@
                 <ul class="list">
                     <li class="list-body">
                         <p class="py-2"><i class="ti-location-pin" role="presentation"></i>Huang 252, Huang Engineering Center, Stanford, CA 94305</p>
-                        <p class="py-2"><i class="ti-email" role="presentation"></i>  vsyrgk@stanford.edu</p>
+                        <p class="py-2"><i class="ti-email" role="presentation"></i> <a href="mailto:vsyrgk@stanford.edu">vsyrgk@stanford.edu</a></p>
                     </li>
                 </ul>
             </div>
@@ -1871,6 +1890,7 @@
             </footer>
         </div>
     </section>
+    </main>
 	
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
@@ -1884,7 +1904,8 @@
 
 
     <!-- Ollie js -->
-    <script src="assets/js/ollie.js"></script>
+    <script src="assets/js/site.js"></script>
+    <script src="assets/js/ollie.js?v=20261002"></script>
 
 </body>
 </html>
