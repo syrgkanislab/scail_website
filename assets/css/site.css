@@ -297,6 +297,109 @@ input:focus-visible {
     object-fit: cover;
 }
 
+.card-illustration {
+    display: block;
+    background: #f5f2ed;
+}
+
+.theme-illustration {
+    display: block;
+    width: 100%;
+    max-width: 112px;
+    height: auto;
+    margin: 0.35rem auto;
+    border-radius: 8px;
+}
+
+#publications [aria-labelledby="publications-by-theme"] dt.col-sm-1 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+#publications [aria-labelledby="publications-by-theme"] dd.col-sm-11 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.course-illustration {
+    display: block;
+    width: 132px;
+    height: 66px;
+    margin: 0.25rem auto 1rem;
+    border-radius: 8px;
+}
+
+#teaching .card-body {
+    display: flow-root;
+}
+
+#teaching .course-card {
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#teaching .course-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#teaching .course-card .s-font {
+    flex: 1 0 auto;
+}
+
+.course-links {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+}
+
+.course-link {
+    display: inline-flex;
+    width: 100%;
+    max-width: 460px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.65rem 1rem;
+    border: 2px solid var(--scail-cardinal);
+    border-radius: 6px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-decoration: none;
+    transition: background-color 150ms ease, color 150ms ease, transform 150ms ease;
+}
+
+.course-book-link {
+    background: var(--scail-cardinal);
+    color: #fff;
+}
+
+.course-book-link:hover,
+.course-book-link:focus-visible {
+    background: #7a1717;
+    border-color: #7a1717;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.course-site-link {
+    background: #fff;
+    color: var(--scail-cardinal);
+}
+
+.course-site-link:hover,
+.course-site-link:focus-visible {
+    background: #f8eeee;
+    color: var(--scail-cardinal);
+    transform: translateY(-1px);
+}
+
 #applications .card-body {
     padding: 1.25rem;
 }

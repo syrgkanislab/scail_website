@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="sustainability" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M71 236c73-91 145-115 220-74s141 22 278-69M71 266c73-91 145-115 220-74s141 22 278-69" fill="none" stroke="#c5d4ca" stroke-width="18" stroke-linecap="round"/>
+    <path d="M71 236c73-91 145-115 220-74s141 22 278-69" fill="none" stroke="#718d7a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M92 92v44m42-57v44m42-57v44" stroke="#7b99a2" stroke-width="7" stroke-linecap="round"/>
+    <path d="M320 61c-30 39-46 69-46 91a46 46 0 0 0 92 0c0-22-16-52-46-91Z" fill="#dbe8e9" stroke="#7b99a2" stroke-width="6"/>
+    <path d="M126 238c0-37 25-66 62-77m-45 90c0-27 17-48 43-56" fill="none" stroke="#638273" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="422" cy="173" r="17" fill="#8c1515"/>
+    <path d="M422 173h114m-22-19 22 19-22 19" fill="none" stroke="#8c1515" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="healthcare" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M320 65 430 106v62c0 62-41 99-110 133-69-34-110-71-110-133v-62Z" fill="#e4ece6" stroke="#638273" stroke-width="6"/>
+    <path d="M320 101v108m-54-54h108" stroke="#8c1515" stroke-width="14" stroke-linecap="round"/>
+    <path d="M120 105h90m-90 45h90m-90 45h90M430 105h90m-90 45h90m-90 45h90" stroke="#c9d4cd" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="153" cy="105" r="12" fill="#d3a64b"/><circle cx="184" cy="150" r="12" fill="#8c1515"/><circle cx="145" cy="195" r="12" fill="#638273"/>
+    <circle cx="487" cy="105" r="12" fill="#638273"/><circle cx="465" cy="150" r="12" fill="#d3a64b"/><circle cx="496" cy="195" r="12" fill="#8c1515"/>
+    <path d="m209 150 56 0m110 0h55" stroke="#a45756" stroke-width="5" stroke-dasharray="7 9"/>
+  </symbol>
+  <symbol id="operations" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M102 248h436M122 248V72" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <path d="M151 208c53-18 79-98 132-106s76 49 123 38 72-44 105-72" fill="none" stroke="#8c1515" stroke-width="8" stroke-linecap="round"/>
+    <path d="M151 219c53-18 79-98 132-106s76 49 123 38 72-44 105-72" fill="none" stroke="#d3a64b" stroke-width="4" stroke-dasharray="7 10"/>
+    <circle cx="280" cy="102" r="11" fill="#638273" stroke="#fff" stroke-width="5"/>
+    <circle cx="406" cy="140" r="11" fill="#638273" stroke="#fff" stroke-width="5"/>
+    <path d="M173 87h70m13 0h70m13 0h70" stroke="#d9dfd8" stroke-width="8" stroke-linecap="round"/>
+    <rect x="159" y="264" width="96" height="24" rx="12" fill="#e6d5b1"/><rect x="271" y="264" width="96" height="24" rx="12" fill="#dce7e1"/><rect x="383" y="264" width="96" height="24" rx="12" fill="#ead8d8"/>
+  </symbol>
+  <symbol id="experiments" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <rect x="109" y="61" width="422" height="208" rx="18" fill="#fff" stroke="#d9ded8" stroke-width="5"/>
+    <path d="M320 62v206" stroke="#e4e4df" stroke-width="5"/>
+    <rect x="143" y="92" width="126" height="32" rx="16" fill="#f0e4dc"/>
+    <rect x="371" y="92" width="126" height="32" rx="16" fill="#dce7e1"/>
+    <path d="M161 215v-53h29v53m15 0v-78h29v78m15 0v-37h29v37" fill="#bb8b82"/>
+    <path d="M389 215v-35h29v35m15 0v-81h29v81m15 0v-58h29v58" fill="#6f9183"/>
+    <path d="M170 236h119m108 0h119" stroke="#ccd2cb" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="320" cy="164" r="20" fill="#8c1515"/>
+    <path d="m311 164 9 9 17-19" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="heterogeneous-effects" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M108 251h423M131 251V82" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <path d="M145 218c61-8 77-86 138-90 62-5 77 58 134 46 39-8 51-45 97-72" fill="none" stroke="#8c1515" stroke-width="9" stroke-linecap="round"/>
+    <path d="M145 227c61-8 77-86 138-90 62-5 77 58 134 46 39-8 51-45 97-72" fill="none" stroke="#d7b3ae" stroke-width="4" stroke-dasharray="8 10"/>
+    <circle cx="283" cy="128" r="11" fill="#d3a64b" stroke="#fff" stroke-width="5"/>
+    <circle cx="417" cy="174" r="11" fill="#6f9183" stroke="#fff" stroke-width="5"/>
+    <path d="M160 271h70m27 0h70m28 0h70m28 0h70" stroke="#d2d5cf" stroke-width="7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="debiased-ml" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M111 219h418M143 219V76" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="190" cy="111" r="8" fill="#c7d5cc"/><circle cx="221" cy="155" r="8" fill="#c7d5cc"/><circle cx="252" cy="99" r="8" fill="#c7d5cc"/>
+    <circle cx="286" cy="181" r="8" fill="#c7d5cc"/><circle cx="321" cy="123" r="8" fill="#c7d5cc"/><circle cx="357" cy="161" r="8" fill="#c7d5cc"/>
+    <circle cx="397" cy="92" r="8" fill="#c7d5cc"/><circle cx="432" cy="148" r="8" fill="#c7d5cc"/>
+    <path d="M173 188 460 104" stroke="#8c1515" stroke-width="8" stroke-linecap="round"/>
+    <path d="M182 147h277" stroke="#d3a64b" stroke-width="5" stroke-dasharray="9 12"/>
+    <circle cx="322" cy="145" r="17" fill="#fff" stroke="#8c1515" stroke-width="6"/>
+    <path d="m314 145 6 6 11-13" fill="none" stroke="#8c1515" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="nonparametric-iv" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <rect x="88" y="119" width="108" height="82" rx="18" fill="#e6d5b1"/>
+    <rect x="266" y="119" width="108" height="82" rx="18" fill="#dce7e1"/>
+    <rect x="444" y="119" width="108" height="82" rx="18" fill="#ead8d8"/>
+    <path d="M197 160h67m-22-19 22 19-22 19m110-19h69m-22-19 22 19-22 19" fill="none" stroke="#8c1515" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="143" cy="160" r="15" fill="#8c1515"/><circle cx="320" cy="160" r="15" fill="#638273"/><circle cx="497" cy="160" r="15" fill="#a45756"/>
+    <path d="M144 86v30m0 118v-31m0 0c70 0 101-43 176-43m0 0c69 0 105 43 177 43m0-117v30" fill="none" stroke="#9aaca0" stroke-width="5" stroke-dasharray="8 10"/>
+    <circle cx="144" cy="75" r="9" fill="#d3a64b"/><circle cx="497" cy="245" r="9" fill="#d3a64b"/>
+  </symbol>
+  <symbol id="adaptive-experiments" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M139 160h113m36 0h63m38 0h112M270 160v-75h104m-104 75v75h104" fill="none" stroke="#89978c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="127" cy="160" r="20" fill="#8c1515"/>
+    <path d="M168 150v20" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M270 140v40" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <rect x="374" y="60" width="108" height="50" rx="16" fill="#e6d5b1"/>
+    <rect x="374" y="210" width="108" height="50" rx="16" fill="#dce7e1"/>
+    <rect x="410" y="135" width="108" height="50" rx="16" fill="#ead8d8"/>
+    <circle cx="374" cy="85" r="9" fill="#bd9d5e"/>
+    <circle cx="374" cy="235" r="9" fill="#638273"/>
+    <circle cx="410" cy="160" r="9" fill="#a45756"/>
+  </symbol>
+  <symbol id="dynamic-regimes" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M91 160h92m42 0h85m42 0h72m-169 0v-78h94m-94 78v78h94m42-78v-78h99m-99 78v78h99m0-156 90 78-90 78" fill="none" stroke="#89978c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="88" cy="160" r="20" fill="#8c1515"/>
+    <rect x="183" y="139" width="44" height="42" rx="13" fill="#e6d5b1"/>
+    <rect x="320" y="139" width="44" height="42" rx="13" fill="#dce7e1"/>
+    <rect x="422" y="60" width="86" height="42" rx="14" fill="#ead8d8"/>
+    <rect x="422" y="139" width="86" height="42" rx="14" fill="#e6d5b1"/>
+    <rect x="422" y="218" width="86" height="42" rx="14" fill="#dce7e1"/>
+    <circle cx="466" cy="81" r="8" fill="#8c1515"/><circle cx="466" cy="160" r="8" fill="#638273"/><circle cx="466" cy="239" r="8" fill="#a45756"/>
+  </symbol>
+  <symbol id="neural-causal-models" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="m166 100 147 54m-147 112 147-70m20-42 145-62m-145 62 145 47m-145-47 145 99" fill="none" stroke="#b6c1ba" stroke-width="6"/>
+    <path d="m166 100 0 112m0 0 147-58m0 0 165 47" fill="none" stroke="#8c1515" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="158" cy="100" r="22" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="5"/>
+    <circle cx="158" cy="212" r="22" fill="#ead8d8" stroke="#a45756" stroke-width="5"/>
+    <circle cx="320" cy="155" r="28" fill="#8c1515"/>
+    <circle cx="484" cy="92" r="21" fill="#dce7e1" stroke="#638273" stroke-width="5"/>
+    <circle cx="484" cy="202" r="21" fill="#dce7e1" stroke="#638273" stroke-width="5"/>
+    <circle cx="484" cy="257" r="21" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="5"/>
+    <path d="m310 155 8 8 15-18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="causal-representation" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <rect x="73" y="92" width="115" height="136" rx="16" fill="#e6d5b1"/>
+    <rect x="452" y="92" width="115" height="136" rx="16" fill="#ead8d8"/>
+    <path d="m100 135 25-23 25 23v42h-50Zm22-23v65m-22-41h50m-50 20h50" fill="none" stroke="#bd9d5e" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M479 121h62m-62 22h46m-46 22h57m-57 22h39" stroke="#a45756" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="248" cy="131" r="13" fill="#8c1515"/><circle cx="320" cy="101" r="13" fill="#638273"/><circle cx="392" cy="131" r="13" fill="#d3a64b"/>
+    <circle cx="248" cy="190" r="13" fill="#638273"/><circle cx="320" cy="219" r="13" fill="#8c1515"/><circle cx="392" cy="190" r="13" fill="#a45756"/>
+    <path d="M188 160h43m31-19 46-32m24 0 48 32m31 19h42m-218 0 43 24m55 29 48-24m55-29h42" fill="none" stroke="#8c1515" stroke-width="5" stroke-linecap="round"/>
+    <path d="M209 146v29m222-29v29" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="sensitivity-analysis" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M136 253V75m0 178h375" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <path d="M164 221c62-40 92-123 157-112 67 11 84 105 169 22" fill="none" stroke="#8c1515" stroke-width="8" stroke-linecap="round"/>
+    <path d="M164 174c68 20 99-57 157-65 72-10 96 48 169 75" fill="none" stroke="#638273" stroke-width="7" stroke-linecap="round" stroke-dasharray="13 12"/>
+    <path d="M164 141c51 5 101-62 157-72 73-13 103 47 169 20" fill="none" stroke="#d3a64b" stroke-width="7" stroke-linecap="round" stroke-dasharray="4 12"/>
+    <circle cx="321" cy="109" r="12" fill="#8c1515" stroke="#fff" stroke-width="5"/>
+    <path d="M166 275h96m19 0h96m19 0h96" stroke="#d0d4ce" stroke-width="6" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="minimax-bounds" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M127 245h386M152 245V71" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <path d="M177 218 470 93" stroke="#8c1515" stroke-width="9" stroke-linecap="round"/>
+    <path d="M177 176 470 51M177 260 470 135" stroke="#c99b96" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <path d="M243 218v-42m104-3v-42m104-3V86" stroke="#d3a64b" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="243" cy="190" r="10" fill="#8c1515"/>
+    <circle cx="347" cy="146" r="10" fill="#8c1515"/>
+    <circle cx="451" cy="102" r="10" fill="#8c1515"/>
+    <path d="M208 274h254" stroke="#d0d4ce" stroke-width="7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="robust-causal" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M104 245h432M131 245V72" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="190" cy="161" r="11" fill="#cbd8cf"/><circle cx="226" cy="132" r="11" fill="#cbd8cf"/><circle cx="259" cy="184" r="11" fill="#cbd8cf"/>
+    <circle cx="294" cy="145" r="11" fill="#cbd8cf"/><circle cx="335" cy="170" r="11" fill="#cbd8cf"/><circle cx="371" cy="125" r="11" fill="#cbd8cf"/>
+    <circle cx="410" cy="157" r="11" fill="#cbd8cf"/><circle cx="453" cy="112" r="11" fill="#cbd8cf"/>
+    <circle cx="486" cy="210" r="12" fill="#ead8d8" stroke="#a45756" stroke-width="4"/>
+    <path d="M171 177c76-44 159-43 250-46" fill="none" stroke="#8c1515" stroke-width="7" stroke-linecap="round"/>
+    <path d="M174 206h85m22 0h85m22 0h85" stroke="#d3a64b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M472 196 489 210l-17 14" fill="none" stroke="#a45756" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="causal-incentives" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <circle cx="174" cy="160" r="47" fill="#e6d5b1"/>
+    <circle cx="466" cy="160" r="47" fill="#dce7e1"/>
+    <path d="M221 160h82m54 0h62m-21-18 21 18-21 18" fill="none" stroke="#8c1515" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M304 91 353 160l-49 69m32-138 49 69-49 69" fill="none" stroke="#a45756" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="174" cy="145" r="10" fill="#8c1515"/><circle cx="158" cy="175" r="8" fill="#638273"/><circle cx="188" cy="177" r="8" fill="#a45756"/>
+    <circle cx="466" cy="145" r="10" fill="#8c1515"/><circle cx="450" cy="175" r="8" fill="#638273"/><circle cx="480" cy="177" r="8" fill="#a45756"/>
+    <path d="M130 238h88m248 0h88" stroke="#cbd4ce" stroke-width="6" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="learning-experts" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <circle cx="126" cy="94" r="17" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="5"/>
+    <circle cx="126" cy="160" r="17" fill="#dce7e1" stroke="#638273" stroke-width="5"/>
+    <circle cx="126" cy="226" r="17" fill="#ead8d8" stroke="#a45756" stroke-width="5"/>
+    <path d="M147 94h91m-91 66h91m-91 66h91m22-132 110 56m-110 10 110 0m-110 56 110-56m28 0h95" fill="none" stroke="#9aa99f" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="250" cy="94" r="10" fill="#8c1515"/><circle cx="250" cy="160" r="10" fill="#638273"/><circle cx="250" cy="226" r="10" fill="#a45756"/>
+    <path d="M376 126 410 160l-34 34m57-34h59" fill="none" stroke="#8c1515" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M493 134h61v52h-61Z" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="5"/>
+    <path d="M509 151h29m-29 17h20" stroke="#8c1515" stroke-width="5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="language-models" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <g fill="none" stroke="#89978c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M113 159h31m-12-12 12 12-12 12"/>
+      <path d="M190 159h20m170 0h22m80 0h24M501 159h22m-12-12 12 12-12 12"/>
+      <path d="M216 142c0-27 12-37 31-37h91c21 0 31 10 31 37m-153 34c0 27 12 37 31 37h91c21 0 31-10 31-37"/>
+      <path d="M385 159c0-27 10-37 27-37h39c18 0 28 10 28 37m-95 0c0 27 10 37 28 37h39c18 0 28-10 28-37"/>
+      <path d="M237 96h110m-110 0v12m110-12v12m49 0v-12m-49 0h49M383 105V95h90v25"/>
+      <path d="M67 218h48m-48 0 13-7m-13 7 13 7m59 0h45"/>
+    </g>
+    <g>
+      <rect x="35" y="126" width="78" height="66" rx="10" fill="#fff" stroke="#d8d2c8" stroke-width="4"/>
+      <rect x="45" y="138" width="16" height="40" rx="4" fill="#e6d5b1"/>
+      <rect x="66" y="138" width="16" height="40" rx="4" fill="#ead8d8"/>
+      <rect x="87" y="138" width="16" height="40" rx="4" fill="#dce7e1"/>
+      <rect x="156" y="133" width="34" height="52" rx="8" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="4"/>
+      <rect x="217" y="113" width="150" height="92" rx="12" fill="#fff" stroke="#a45756" stroke-width="4"/>
+      <rect x="230" y="127" width="124" height="28" rx="7" fill="#ead8d8"/>
+      <rect x="230" y="163" width="124" height="28" rx="7" fill="#dce7e1"/>
+      <circle cx="248" cy="141" r="5" fill="#8c1515"/>
+      <circle cx="278" cy="141" r="5" fill="#bd9d5e"/>
+      <circle cx="308" cy="141" r="5" fill="#8c1515"/>
+      <circle cx="338" cy="141" r="5" fill="#bd9d5e"/>
+      <path d="M243 178h98" stroke="#638273" stroke-width="5" stroke-linecap="round"/>
+      <rect x="390" y="126" width="90" height="66" rx="12" fill="#fff" stroke="#638273" stroke-width="4"/>
+      <circle cx="407" cy="145" r="5" fill="#bd9d5e"/>
+      <circle cx="435" cy="145" r="5" fill="#8c1515"/>
+      <circle cx="463" cy="145" r="5" fill="#638273"/>
+      <path d="M405 170h60" stroke="#dce7e1" stroke-width="11" stroke-linecap="round"/>
+      <rect x="535" y="126" width="70" height="66" rx="10" fill="#fff" stroke="#d8d2c8" stroke-width="4"/>
+      <rect x="546" y="164" width="10" height="16" rx="3" fill="#e6d5b1"/>
+      <rect x="562" y="150" width="10" height="30" rx="3" fill="#a45756"/>
+      <rect x="578" y="139" width="10" height="41" rx="3" fill="#8c1515"/>
+    </g>
+    <circle cx="382" cy="159" r="6" fill="#8c1515"/>
+    <path d="M262 84v12m30-12v12m30-12v12m30-12v12" stroke="#d3a64b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M408 109c12-18 39-18 52 0m-52 100c12 18 39 18 52 0" fill="none" stroke="#8c1515" stroke-width="4" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="course-applied" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <rect x="72" y="94" width="112" height="132" rx="16" fill="#e6d5b1"/>
+    <path d="M98 127h60m-60 27h43m-43 27h53" stroke="#bd9d5e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M185 160h64m-20-18 20 18-20 18" fill="none" stroke="#8c1515" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="300" cy="105" r="15" fill="#8c1515"/><circle cx="300" cy="160" r="15" fill="#638273"/><circle cx="300" cy="215" r="15" fill="#a45756"/>
+    <path d="M316 105h69m-69 55h69m-69 55h69m-40-92 40 37-40 37" fill="none" stroke="#9aa99f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="398" y="93" width="166" height="134" rx="16" fill="#fff" stroke="#d8ded8" stroke-width="5"/>
+    <path d="M421 198v-34h25v34m16 0v-65h25v65m16 0v-48h25v48" fill="#dce7e1"/>
+    <path d="M420 207h117" stroke="#8c1515" stroke-width="6" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="course-foundations" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <path d="M112 221h416M145 221V84" stroke="#a9b1ab" stroke-width="6" stroke-linecap="round"/>
+    <path d="M169 190c59-16 70-75 128-78 56-2 63 44 121 36 38-5 58-26 85-51" fill="none" stroke="#8c1515" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="297" cy="111" r="11" fill="#d3a64b" stroke="#fff" stroke-width="4"/>
+    <path d="M181 252h78m22 0h78m22 0h78" stroke="#cbd4ce" stroke-width="7" stroke-linecap="round"/>
+    <path d="M217 89v22m160-26v29m95-31v30" stroke="#638273" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="217" cy="82" r="8" fill="#638273"/><circle cx="377" cy="77" r="8" fill="#638273"/><circle cx="472" cy="75" r="8" fill="#638273"/>
+  </symbol>
+  <symbol id="game-theory" viewBox="0 0 640 320">
+    <rect width="640" height="320" rx="18" fill="#f5f2ed"/>
+    <circle cx="150" cy="160" r="42" fill="#e6d5b1" stroke="#bd9d5e" stroke-width="5"/>
+    <circle cx="490" cy="160" r="42" fill="#dce7e1" stroke="#638273" stroke-width="5"/>
+    <path d="M191 144h97m-97 32h97m55-32h97m-97 32h97" stroke="#9aa99f" stroke-width="5"/>
+    <rect x="290" y="100" width="60" height="120" rx="14" fill="#fff" stroke="#8c1515" stroke-width="5"/>
+    <path d="M305 126h30m-30 34h30m-30 34h30" stroke="#d3a64b" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="150" cy="145" r="8" fill="#8c1515"/><circle cx="136" cy="174" r="7" fill="#638273"/><circle cx="165" cy="176" r="7" fill="#a45756"/>
+    <circle cx="490" cy="145" r="8" fill="#8c1515"/><circle cx="476" cy="174" r="7" fill="#638273"/><circle cx="505" cy="176" r="7" fill="#a45756"/>
+    <path d="M108 238h84m-42-13v27m298-14h84m-42-13v27" stroke="#cbd4ce" stroke-width="6" stroke-linecap="round"/>
+  </symbol>
+</svg>
