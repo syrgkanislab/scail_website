@@ -171,7 +171,7 @@ input:focus-visible {
 }
 
 .section {
-    padding: clamp(3.5rem, 7vw, 6rem) 10px;
+    padding: clamp(2.25rem, 4vw, 3.5rem) 10px;
     scroll-margin-top: 76px;
 }
 
