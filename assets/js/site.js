@@ -160,7 +160,7 @@
         newsList.insertAdjacentElement("afterend", archive);
     }
 
-    document.querySelectorAll("#navbarSupportedContent a[href^='#']").forEach((link) => {
+    document.querySelectorAll("#navbarSupportedContent a[href^='#'], .hero-actions a[href^='#']").forEach((link) => {
         link.addEventListener("click", (event) => {
             const target = document.getElementById(link.hash.slice(1));
             if (!target) {
@@ -168,7 +168,7 @@
             }
 
             event.preventDefault();
-            if (window.innerWidth < 992 && window.jQuery) {
+            if (link.closest("#navbarSupportedContent") && window.innerWidth < 992 && window.jQuery) {
                 window.jQuery("#navbarSupportedContent").collapse("hide");
             }
 

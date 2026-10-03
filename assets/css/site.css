@@ -199,6 +199,7 @@ input:focus-visible {
 }
 
 #about .widget {
+    max-width: 940px;
     flex-wrap: wrap;
     gap: 0.6rem 1rem;
     border: 1px solid var(--scail-border);
@@ -224,6 +225,17 @@ input:focus-visible {
     height: 34px;
     align-items: center;
     justify-content: center;
+}
+
+#about .widget a[aria-label="Schmidt Sciences website"],
+#about .widget a[aria-label="Intuit website"] {
+    width: 94px;
+    height: 38px;
+}
+
+#about .widget a[aria-label="Intuit website"] {
+    width: 104px;
+    height: 42px;
 }
 
 #about .widget img {
