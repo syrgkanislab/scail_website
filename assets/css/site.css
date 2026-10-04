@@ -384,6 +384,10 @@ input:focus-visible {
     text-align: left;
 }
 
+#teaching .row {
+    row-gap: 1.5rem;
+}
+
 #teaching .course-card .card-body {
     display: grid;
     grid-template-columns: 60px minmax(0, 1fr);
