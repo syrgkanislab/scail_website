@@ -149,6 +149,18 @@ input:focus-visible {
     color: var(--scail-ink);
 }
 
+.hero-partner-button {
+    background: #f0c878;
+    border-color: #f0c878;
+    color: var(--scail-ink);
+}
+
+.hero-partner-button:hover {
+    background: #ffd98a;
+    border-color: #ffd98a;
+    color: var(--scail-ink);
+}
+
 .hero-text-link {
     color: #fff;
     font-weight: 700;
