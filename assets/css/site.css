@@ -304,17 +304,20 @@ input:focus-visible {
 }
 
 #foundations .card::before {
-    display: block;
-    grid-column: 2;
-    grid-row: 1;
-    align-self: end;
-    margin-bottom: 0.45rem;
     color: var(--scail-red);
     font-size: 0.68rem;
     font-weight: 750;
     letter-spacing: 0.13em;
     line-height: 1.3;
     text-transform: uppercase;
+}
+
+#foundations .card::before {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    margin-bottom: 0.45rem;
 }
 
 #applications .card:hover {

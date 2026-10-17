@@ -195,7 +195,7 @@
                         </li>
                         <li>
 							Two papers accepted to ICML26! Congratulations to i) Shiangyi and Hui for their paper on <a href="https://arxiv.org/abs/2506.02200">Learning Treatment Representations for Downstream Instrumental Variable Regression</a>,
-							ii) Jikai for his paper on <a href="https://arxiv.org/abs/2602.15327">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities</a> (spotlight).
+							ii) Jikai for his paper on <a href="https://arxiv.org/abs/2602.15327">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities</a> (oral).
 						</li>
 						<li> New papers posted on Arxiv: i) <a href="https://arxiv.org/abs/2603.01337">Adaptive Estimation and Inference in Conditional Moment Models via the Discrepancy Principle</a>, 
                             ii) <a href="https://arxiv.org/abs/2602.20571">CausalReasoningBenchmark: A Real-World Benchmark for Disentangled Evaluation of Causal Identification and Estimation</a>, 
@@ -623,13 +623,40 @@
             <div class="row text-center">
                 <div class="col-lg-3">
                     <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="40">
+                        <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Large language models illustration"><use href="assets/imgs/research-art.svg#language-models"></use></svg>
+                        <span class="card-body">
+                            <h3 class="title mt-2">Large Language Models</h3>
+                            <div class="card-content">
+                                <div class="tabs">
+                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="42">Overview</button>
+                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="43">Papers</button>
+                                </div>
+                                <div id="tab1" class="xs-font tab-content active">
+                                    Large language models have become transformative tools across many applications.
+                                    Our lab works on understanding the causal mechanisms underlying LLM capabilities and behaviors,
+                                    developing methods for alignment via preference learning from expert demonstrations,
+                                    and studying how LLM capabilities scale with model size and training data.
+                                </div>
+                                <div id="tab2" class="xs-font tab-content">
+                                    <a href="https://arxiv.org/abs/2602.15327" target="_blank" aria-label="New Tab">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities, ICML26</a><br/><br/>
+                                    <a href="https://arxiv.org/abs/2506.10378" target="_blank" aria-label="New Tab">Discovering Hierarchical Latent Capabilities of Language Models via Causal Representation Learning, COLM2026</a><br/><br/>
+                                    <a href="https://arxiv.org/abs/2510.15716" target="_blank" aria-label="New Tab">Direct Preference Optimization with Unobserved Preference Heterogeneity: The Necessity of Ternary Preferences, AISTATS26</a><br/><br/>
+                                    <a href="https://arxiv.org/abs/2505.22820" target="_blank" aria-label="New Tab">Preference Learning with Response Time, NeurIPS25</a><br/><br/>
+                                    <a href="https://arxiv.org/abs/2410.14001" target="_blank" aria-label="New Tab">Personalized Adaptation via In-Context Preference Learning, Arxiv24</a>
+                                </div>
+                            </div>
+                        </span>
+                    </span>
+                </div>
+                <div class="col-lg-3">
+                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="44">
                         <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Minimax lower bounds illustration"><use href="assets/imgs/research-art.svg#minimax-bounds"></use></svg>
                         <span class="card-body">
                             <h3 class="title mt-2">Minimax Lower Bounds for Causal Estimation</h3>
                             <div class="card-content">
                                 <div class="tabs">
-                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="42">Overview</button>
-                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="43">Papers</button>
+                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="46">Overview</button>
+                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="47">Papers</button>
                                 </div>
                                 <div id="tab1" class="xs-font tab-content active">
                                     The causal inference literature has produced many estimation algorithms that each have their 
@@ -647,14 +674,14 @@
                     </span>
                 </div>
                 <div class="col-lg-3">
-                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="44">
+                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="48">
                         <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Robust statistics and causal inference illustration"><use href="assets/imgs/research-art.svg#robust-causal"></use></svg>
                         <span class="card-body">
                             <h3 class="title mt-2">Robust Statistics and Causal Inference</h3>
                             <div class="card-content">
                                 <div class="tabs">
-                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="46">Overview</button>
-                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="47">Papers</button>
+                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="50">Overview</button>
+                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="51">Papers</button>
                                 </div>
                                 <div id="tab1" class="xs-font tab-content active">
                                     Real data always contain outliers or small "exceptional" sub-populations. Our lab develops techniques
@@ -669,14 +696,14 @@
                     </span>
                 </div>
                 <div class="col-lg-3">
-                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="48">
+                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="52">
                         <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Causal inference and incentives illustration"><use href="assets/imgs/research-art.svg#causal-incentives"></use></svg>
                         <span class="card-body">
                             <h3 class="title mt-2">Causal Inference and Incentives</h3>
                             <div class="card-content">
                                 <div class="tabs">
-                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="50">Overview</button>
-                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="51">Papers</button>
+                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="54">Overview</button>
+                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="55">Papers</button>
                                 </div>
                                 <div id="tab1" class="xs-font tab-content active">
                                     Experimentation in real world systems, typically involves interacting with human subjects,
@@ -694,14 +721,14 @@
                     </span>
                 </div>
                 <div class="col-lg-3">
-                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="52">
+                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="56">
                         <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Learning from experts illustration"><use href="assets/imgs/research-art.svg#learning-experts"></use></svg>
                         <span class="card-body">
                             <h3 class="title mt-2">Learning from Experts</h3>
                             <div class="card-content">
                                 <div class="tabs">
-                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="54">Overview</button>
-                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="55">Papers</button>
+                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="58">Overview</button>
+                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="59">Papers</button>
                                 </div>
                                 <div id="tab1" class="xs-font tab-content active">
                                     Expert demonstration data can augment ML algorithms either by informing
@@ -713,36 +740,6 @@
                                     <a href="https://arxiv.org/abs/2410.14001" target="_blank" aria-label="New Tab">Personalized Adaptation via In-Context Preference Learning, Arxiv24</a><br/><br/>
                                     <a href="https://arxiv.org/abs/2405.15065" target="_blank" aria-label="New Tab">Direct Preference Optimization With Unobserved Preference Heterogeneity, Arxiv24</a><br/><br/>
                                     <a href="https://arxiv.org/abs/2404.07266" target="_blank" aria-label="New Tab">Sequential Decision Making with Expert Demonstrations under Unobserved Heterogeneity, NeurIPS24</a>
-                                </div>
-                            </div>
-                        </span>
-                    </span>
-                </div>
-            </div>
-            <br/>
-            <div class="row text-center">
-                <div class="col-lg-3">
-                    <span class="card border-0 text-dark" onclick="toggleCard(event, this)" role="button" tabindex="56">
-                        <svg class="card-img-top card-illustration" viewBox="0 0 640 320" role="img" aria-label="Large language models illustration"><use href="assets/imgs/research-art.svg#language-models"></use></svg>
-                        <span class="card-body">
-                            <h3 class="title mt-2">Large Language Models</h3>
-                            <div class="card-content">
-                                <div class="tabs">
-                                    <button class="xs-font tab-link active" onclick="showTab(event, this, 'tab1')" tabindex="58">Overview</button>
-                                    <button class="xs-font tab-link" onclick="showTab(event, this, 'tab2')" tabindex="59">Papers</button>
-                                </div>
-                                <div id="tab1" class="xs-font tab-content active">
-                                    Large language models have become transformative tools across many applications.
-                                    Our lab works on understanding the causal mechanisms underlying LLM capabilities and behaviors,
-                                    developing methods for alignment via preference learning from expert demonstrations,
-                                    and studying how LLM capabilities scale with model size and training data.
-                                </div>
-                                <div id="tab2" class="xs-font tab-content">
-                                    <a href="https://arxiv.org/abs/2602.15327" target="_blank" aria-label="New Tab">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities, ICML26</a><br/><br/>
-                                    <a href="https://arxiv.org/abs/2506.10378" target="_blank" aria-label="New Tab">Discovering Hierarchical Latent Capabilities of Language Models via Causal Representation Learning, COLM2026</a><br/><br/>
-                                    <a href="https://arxiv.org/abs/2510.15716" target="_blank" aria-label="New Tab">Direct Preference Optimization with Unobserved Preference Heterogeneity: The Necessity of Ternary Preferences, AISTATS26</a><br/><br/>
-                                    <a href="https://arxiv.org/abs/2505.22820" target="_blank" aria-label="New Tab">Preference Learning with Response Time, NeurIPS25</a><br/><br/>
-                                    <a href="https://arxiv.org/abs/2410.14001" target="_blank" aria-label="New Tab">Personalized Adaptation via In-Context Preference Learning, Arxiv24</a>
                                 </div>
                             </div>
                         </span>
@@ -1069,7 +1066,7 @@
                                 </li>
                                 <li>
                                     <a href="https://arxiv.org/abs/2602.15327">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities</a><br/>
-                                    Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade, <b>ICML26 (spotlight)</b>
+                                    Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade, <b>ICML26 (oral)</b>
                                 </li>
                                 <li>
                                     <a href="https://arxiv.org/abs/2506.02200">Learning Treatment Representations for Downstream Instrumental Variable Regression</a><br/>
@@ -1746,7 +1743,7 @@
                                 </li>
                                 <li>
                                     <a href="https://arxiv.org/abs/2602.15327">Prescriptive Scaling Reveals the Evolution of Language Model Capabilities</a><br/>
-                                    Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade, Arxiv26
+                                    Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade, <b>ICML26 (oral)</b>
                                 </li>
                                 <li>
                                     <a href="https://arxiv.org/abs/2506.10378">Discovering Hierarchical Latent Capabilities of Language Models via Causal Representation Learning</a><br/>
